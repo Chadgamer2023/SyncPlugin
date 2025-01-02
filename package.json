@@ -1,0 +1,33 @@
+{
+    "name": "syncplugin",
+    "version": "1.0.0",
+    "description": "A Discord bot for syncing Minecraft accounts with MongoDB.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "mongodb",
+        "linking",
+        "dotenv",
+        "utils"
+    ],
+    "author": "chadgamer938",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.0.0",
+        "dotenv": "^16.0.0",
+        "moment": "^2.30.1",
+        "mongodb": "^4.0.0",
+        "utils": "^0.3.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
